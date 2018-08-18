@@ -3,7 +3,7 @@ spring:
     name: ninja-cart-service
   cloud:
     config:
-      uri: http://192.168.1.7:60090
+      uri: http://127.0.0.1:60090
 
 server:
   port: 60020
