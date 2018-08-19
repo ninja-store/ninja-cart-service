@@ -1,4 +1,4 @@
-package org.amuji.ninja.cart;
+package org.amuji.ninja.cart.application;
 
 import org.amuji.ninja.cart.domain.cart.Cart;
 import org.amuji.ninja.cart.domain.cart.CartService;
