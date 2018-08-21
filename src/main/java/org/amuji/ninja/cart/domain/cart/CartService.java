@@ -20,6 +20,9 @@ public class CartService {
         Cart cart = new Cart().setId(id);
 
         List<Product> products = inventoryService.allProducts();
+        if (products.isEmpty()) {
+            return cart;
+        }
 
         Random random = new Random();
 

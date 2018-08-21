@@ -3,3 +3,6 @@ info:
     name: "default"
     desc: "default"
     version: "default"
+feign:
+  hystrix:
+    enabled: true
